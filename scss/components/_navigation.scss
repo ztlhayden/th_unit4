@@ -4,6 +4,12 @@
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
+
+  @include media(sm) {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
 
 .nav-link {
@@ -19,5 +25,9 @@
   &:hover {
     color: #fff;
     background-color: $primary-color;
+  }
+
+  @include media(sm) {
+    flex-basis: 100px;
   }
 }

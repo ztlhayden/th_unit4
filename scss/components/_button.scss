@@ -7,6 +7,16 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+
+  @include media(sm) {
+    & {
+      padding: 10px 30px;
+    }
+
+    + .btn {
+      margin-left: 10px;
+    }
+  }
 }
 
 .default {
