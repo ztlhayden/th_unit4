@@ -6,37 +6,10 @@
   box-sizing: border-box;
 }
 
-//elements
 p {
   line-height: 1.45em;
 }
 
 a {
   text-decoration: none;
-}
-
-//classes
-.headline-primary {
-  color: $primary-color;
-  margin-left: 10px;
-}
-
-.headline-secondary {
-  color: $copy-primary-color;
-  font-weight: 300;
-}
-
-.link {
-  color: $secondary-color;
-  font-weight: 700;
-}
-
-.blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid $primary-color;
-  border-radius: 5px;
 }
