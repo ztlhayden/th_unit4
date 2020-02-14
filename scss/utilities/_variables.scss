@@ -10,6 +10,16 @@ $img-border-color: #ccc;
 $white-color: #fff;
 $copy-primary-color: #777;
 
+//button colors
+$btn-default: #51ddfc;
+$btn-error: #e4757a;
+$btn-info: #927bc1;
+$btn-success: #63cc82;
+$btn-warn: #fd7856;
+
+//hover state adjustment
+$hover-lighten: 15%;
+
 // Media Query Break-points
 $break-points: (
   'sm' : 768px,

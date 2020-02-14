@@ -15,9 +15,9 @@
   transition: 
     background-color .2s ease-in-out, 
     color .2s ease-in-out;
-}
 
-.nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
+  &:hover {
+    color: #fff;
+    background-color: $primary-color;
+  }
 }

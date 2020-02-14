@@ -10,21 +10,26 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $btn-default;
+  @include btn-hover($btn-default);
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $btn-error;
+  @include btn-hover($btn-error);
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $btn-info;
+  @include btn-hover($btn-info);
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $btn-success;
+  @include btn-hover($btn-success);
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $btn-warn;
+  @include btn-hover($btn-warn);
 }

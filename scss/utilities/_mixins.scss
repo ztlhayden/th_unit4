@@ -1,1 +1,10 @@
 /* Mixins ------- */
+@mixin btn-hover($btn-color) {
+  &:hover {
+    background-color: lighten($color: $btn-color, $amount: $hover-lighten);
+  }
+}
+
+@mixin media($min-width) {
+  
+}
